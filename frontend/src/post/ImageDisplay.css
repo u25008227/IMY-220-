@@ -1,0 +1,11 @@
+.image-display {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.image-display img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
