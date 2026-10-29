@@ -1,0 +1,101 @@
+.auth-form {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.auth-form h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #b0b0d0;
+  font-size: 0.9rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+.form-group input.error {
+  border-color: #ff6b6b;
+}
+
+.error-message {
+  display: block;
+  margin-top: 5px;
+  color: #ff6b6b;
+  font-size: 0.85rem;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6c63ff, #00d4ff);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.auth-btn:hover {
+  opacity: 0.9;
+}
+
+.auth-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.social-login {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-btn {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  color: #b0b0d0;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.social-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.social-btn.google:hover {
+  background: rgba(234, 67, 53, 0.1);
+  border-color: #ea4335;
+}
+
+.social-btn.github:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: #ffffff;
+}
