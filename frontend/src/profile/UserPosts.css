@@ -1,0 +1,14 @@
+.user-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.no-posts {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: #b0b0d0;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+}
