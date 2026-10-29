@@ -1,0 +1,9 @@
+.feed {
+  width: 100%;
+}
+
+.feed-loading {
+  text-align: center;
+  padding: 40px;
+  color: #b0b0d0;
+}
