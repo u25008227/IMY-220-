@@ -32,7 +32,7 @@ To build backend only:
 
 GitHub Repository:
 -----------------
-https://github.com/yourusername/alba-reality
+https://github.com/u25008227/IMY-220-
 
 Features Implemented in D1:
 --------------------------
