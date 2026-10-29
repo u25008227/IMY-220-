@@ -1,0 +1,121 @@
+.splash-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(../assets/splash.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.splash-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1100px;
+  width: 100%;
+  align-items: center;
+}
+
+.carousel-wrapper .carousel-slide {
+    height: 200px !important;
+}
+
+/* Left side - Brand section (NO box) */
+.brand-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.brand-title {
+  font-size: 4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6c63ff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.brand-welcome {
+    font-size: 4rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6c63ff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.brand-tagline {
+  font-size: 1.3rem;
+  color: #b0b0d0;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.space-fact {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px 25px;
+  border-radius: 10px;
+  border-left: 4px solid #6c63ff;
+  font-style: italic;
+  color: #b0b0d0;
+  line-height: 1.6;
+  backdrop-filter: blur(5px);
+}
+
+/* Right side - Auth section (WITH box) */
+.auth-section-wrapper {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.auth-switch {
+  margin-top: 20px;
+  text-align: center;
+  color: #b0b0d0;
+}
+
+.auth-switch button {
+  background: none;
+  border: none;
+  color: #6c63ff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.auth-switch button:hover {
+  color: #00d4ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .splash-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .brand-title {
+    font-size: 2.8rem;
+  }
+  
+  .brand-tagline {
+    font-size: 1.1rem;
+  }
+  
+  .auth-section-wrapper {
+    padding: 30px 25px;
+  }
+}
